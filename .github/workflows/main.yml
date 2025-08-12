@@ -1,16 +1,18 @@
-name:saurya aman
+name: sauryaaman
 
 on:
   push:
-   branches:[main]
+    branches:
+      - main
 
 jobs:
   demo:
-   runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
-   -name:greetigs
-    run:echo "hello from aman'
+    steps:
+      - name: greetings
+        run: echo "hello from aman"
+
  
   
   
