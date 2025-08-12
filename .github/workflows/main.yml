@@ -1,0 +1,16 @@
+name:saurya aman
+
+on:
+  push:
+   branches:[main]
+
+jobs:
+  demo:
+   runs-on:ubuntu-latest
+
+  steps:
+   -name:greetigs
+    run:echo "hello from aman'
+ 
+  
+  
